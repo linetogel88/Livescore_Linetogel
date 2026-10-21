@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090b14">
+  <title>LIVE SCORE LINETOGEL</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="lsl-app" id="lsl-app">
+    <section class="hero">
+      <a class="hero-logo" href="https://linklist.bio/VVCIApFHZw" target="_blank" rel="noopener noreferrer" aria-label="LINETOGEL">
+        <img src="https://cdn.areabermain.club/assets/cdn/az6/2026/07/25/20260725/f3fa85abe469ac91f803335bf025c6d1/logo-line.png" alt="LINETOGEL">
+      </a>
+
+      <div class="hero-copy">
+        <div class="kicker"><span></span>REAL MATCHES • REAL MOMENTS<span></span></div>
+        <h1>LIVE <em>SCORE</em></h1>
+        <p>Semua pertandingan olahraga favorit dalam satu halaman. Pantau jadwal, skor terbaru, dan update pertandingan dengan cepat, praktis, dan mudah.</p>
+      </div>
+
+      <a class="hero-cta" href="https://linklist.bio/VVCIApFHZw" target="_blank" rel="noopener noreferrer">KUNJUNGI LINETOGEL →</a>
+    </section>
+
+    <section class="status-strip">
+      <div class="status-left"><span class="green-dot"></span><strong>Live Score Hari Ini</strong><span class="today-chip" id="today-chip">Memuat...</span></div>
+      <div class="status-right"><span id="update-label">Menunggu data</span><span class="clock" id="clock-wib">--:--:-- WIB</span></div>
+    </section>
+
+    <section class="ticker">
+      <div class="ticker-label"><span class="red-dot"></span>LIVE TICKER</div>
+      <div class="ticker-window"><div class="ticker-track" id="ticker-track">Memuat pertandingan terbaru...</div></div>
+      <div class="ticker-live">LIVE</div>
+    </section>
+
+    <section class="controls">
+      <label class="search-box">
+        <span class="search-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.6-3.6"></path></svg>
+        </span>
+        <input id="search-input" type="search" placeholder="Cari tim, liga, negara atau round..." autocomplete="off">
+        <button type="button" id="search-clear" class="search-clear" aria-label="Hapus pencarian">×</button>
+      </label>
+      <div class="filter-group">
+        <button class="filter-btn active" data-filter="all" type="button">Semua</button>
+        <button class="filter-btn live-filter" data-filter="live" type="button"><span class="red-dot"></span> LIVE</button>
+      </div>
+    </section>
+
+    <nav class="sport-tabs" aria-label="Pilih olahraga">
+      <button class="sport-tab active" data-sport="football" type="button"><span>⚽</span>Football</button>
+      <button class="sport-tab" data-sport="hockey" type="button"><span>🏒</span>Hockey</button>
+      <button class="sport-tab" data-sport="basketball" type="button"><span>🏀</span>Basketball</button>
+      <button class="sport-tab" data-sport="tennis" type="button"><span>🎾</span>Tennis</button>
+      <button class="sport-tab" data-sport="cricket" type="button"><span>🏏</span>Cricket</button>
+    </nav>
+
+    <section id="content" class="content" aria-live="polite">
+      <div class="skeleton-grid" id="skeleton-grid">
+        <div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div><span class="refresh-icon">↻</span> High Traffic Mode • snapshot cache bersama</div>
+      <div>Powered by <strong>LINETOGEL</strong></div>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="/app.js" defer></script>
+</body>
+</html>
